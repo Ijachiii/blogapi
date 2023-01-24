@@ -129,6 +129,6 @@ AUTH_USER_MODEL = "accounts.CustomUser"
 
 REST_FRAMEWORK = {
     "DEFAULT_PERMISSION_CLASSES": [
-        "restt_framework.permissions.AllowAny"
+        "rest_framework.permissions.AllowAny"
     ]
 }
