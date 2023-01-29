@@ -1,0 +1,1 @@
+web: guicorn blogapi_project.wsgi --log-file -
